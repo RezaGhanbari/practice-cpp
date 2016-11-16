@@ -14,5 +14,6 @@ set(SOURCE_FILES typedef.cpp)
 set(SOURCE_FILES large_to_unsigned_int.cpp)
 set(SOURCE_FILES large_to_signed_int.cpp)
 set(SOURCE_FILES char_based_on_numbers.cpp)
+set(SOURCE_FILES enumerated_constants.cpp)
 
 add_executable(practice_cpp ${SOURCE_FILES})
