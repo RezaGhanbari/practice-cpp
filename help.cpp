@@ -7,7 +7,6 @@ int main(){
         and it extends until the closing
         star-slash comment mark */
     cout << "Hello World!\n";
-
     // this comment ends at the end of the line
 
     cout << "That comment ended!\n";
