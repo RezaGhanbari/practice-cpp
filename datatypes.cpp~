@@ -9,7 +9,13 @@ int main(){
   cout << "Size of float :" << sizeof(float) << endl;
   cout << "Size of double :" << sizeof(double) << endl;
   cout << "Size of wchar_t :" << sizeof(wchar_t) << endl;
+  
+  enum first_enum {red, green, blue} c;
+  c = blue;
+  cout << c << endl;
+
 
   return 0;
 
 }
+
